@@ -120,9 +120,9 @@ export class RestylingDemo extends React.Component {
               <Select.Option value="victor">Victor</Select.Option>
             </Select>
             <SelectStyled defaultValue="lucy" style={{ width: 120 }} allowClear>
-              <Select.Option value="lucy">Lucy</Select.Option>
-              <Select.Option value="kim">Kim</Select.Option>
-              <Select.Option value="victor">Victor</Select.Option>
+              <Option value="lucy">Lucy</Option>
+              <Option value="kim">Kim</Option>
+              <Option value="victor">Victor</Option>
             </SelectStyled>
           </Content>
           <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
